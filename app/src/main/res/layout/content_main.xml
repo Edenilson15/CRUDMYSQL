@@ -88,7 +88,7 @@
         android:layout_marginTop="15dp"
         android:textAlignment="center"
         android:textColor="#050505"
-        android:onClick="guardar"
+
         />
 
     <Button
@@ -100,7 +100,7 @@
         android:background="@drawable/stylebuton"
         android:textAlignment="center"
         android:textColor="#000000"
-        android:onClick="consultaporcodigo"
+
         />
 
     <Button
@@ -112,7 +112,7 @@
         android:layout_marginTop="15dp"
         android:textAlignment="center"
         android:textColor="#0F0F0F"
-        android:onClick="consultapordescripcion"
+
        />
 
     <Button
@@ -124,7 +124,7 @@
         android:layout_marginTop="15dp"
         android:textAlignment="center"
         android:textColor="#000000"
-        android:onClick="eliminarporcodigo"
+
        />
 
     <Button
@@ -136,7 +136,7 @@
         android:layout_marginTop="15dp"
         android:textAlignment="center"
         android:textColor="#0C0C0C"
-        android:onClick="modificar"
+
         />
 
 
