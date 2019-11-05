@@ -331,6 +331,11 @@ public class MainActivity extends AppCompatActivity {
             Intent spinnerActivity = new Intent(MainActivity.this, Consulta_RecyclerView.class);
             startActivity(spinnerActivity);
             return true;
+        }
+        else if(id == R.id.action_acercade){
+            Intent spinnerActivity = new Intent(MainActivity.this, AcercaDe.class);
+            startActivity(spinnerActivity);
+            return true;
         }else if(id == R.id.action_salir){
             DialogConfirmacion();
             return true;
