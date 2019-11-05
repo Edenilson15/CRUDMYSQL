@@ -333,7 +333,7 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
         else if(id == R.id.action_acercade){
-            Intent spinnerActivity = new Intent(MainActivity.this, AcercaDe.class);
+            Intent spinnerActivity = new Intent(MainActivity.this, Acerca.class);
             startActivity(spinnerActivity);
             return true;
         }else if(id == R.id.action_salir){
